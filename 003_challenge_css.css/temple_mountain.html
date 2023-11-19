@@ -42,7 +42,13 @@
         margin-bottom: 0px;
         margin-top: 56px;
         color: white;
-        background: linear-gradient(to right, #808080, #00ced1, #228b22);
+        background: linear-gradient(
+          to right,
+          #87ceeb,
+          #8b4513,
+          #8b4513,
+          #87ceeb
+        );
       }
 
       li {
@@ -60,6 +66,16 @@
       a :hover {
         color: orange;
       }
+      footer {
+        padding: 16px;
+        background-color: black;
+      }
+
+      .home a {
+        color: white;
+        text-align: center;
+        display: block;
+      }
     </style>
   </head>
 
@@ -67,13 +83,13 @@
     <div class="main-section">
       <div class="image-container">
         <img
-          src="https://images.unsplash.com/photo-1533579436102-fcc5a403c554?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://www.spectacularmountains.com/wp-content/uploads/2017/12/Temple_Featured_COR_2681_edited.jpg"
           alt="" />
       </div>
       <div>
-        <h1>Lago Louise</h1>
+        <h1>Temple Mountain</h1>
         <p><a href="#">Autore: Giovanni Rossi</a></p>
-        <h6>Luoghi correlati</h6>
+        <h6 id="t-m">Luoghi correlati</h6>
       </div>
 
       <div>
@@ -84,9 +100,14 @@
           <a href="little_beehive_trail.html"><li>Little Beehive Trail</li></a>
           <a href="saddleback_pass.html"><li>Saddleback Pass</li></a>
           <a href="sentinel_pass.html"><li>Sentinel Pass</li></a>
-          <a href="temple_mountain.html"><li>Temple Mountain</li></a>
+          <!-- <a href="temple_mountain.html"><li>Temple Mountain</li></a> -->
         </ul>
       </div>
     </div>
+    <footer>
+      <div class="home">
+        <a href="index.html">HOME</a>
+      </div>
+    </footer>
   </body>
 </html>
